@@ -1,12 +1,12 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend for the AI assistant which will answer any questions related to the health insurance policy.
 
-Currently, two official plugins are available:
+Currently, this frontend is hosted on vercel:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Link for the AI assistant](https://chatbot-ui-red-three.vercel.app/) 
 
-## Expanding the ESLint configuration
+## Methodology
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Developed the frontend by using React and axios to make http requests in web applications. After that I connected the backend API to it which is made using FastAPI. I hosted the backend API on Render.
+- [Link for the backend code](https://github.com/Rosireddy-V/Gaido_Chatbot_Backend)
